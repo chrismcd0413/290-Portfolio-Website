@@ -1,0 +1,19 @@
+{
+  "name": "backend-services",
+  "version": "1.0.0",
+  "description": "Provides the backend services for our portfolio project.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon controller.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chris Mcdaniel",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "mongoose": "^7.2.4",
+    "nodemon": "^2.0.22",
+    "rest": "^2.0.0"
+  }
+}
